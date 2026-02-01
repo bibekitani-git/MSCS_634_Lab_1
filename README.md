@@ -1,4 +1,3 @@
-Project Purpose
 This lab was designed to walk through the essential early stages of the data science lifecycle. My primary goal was to take a raw sales dataset and transform it into a clean, analyzed format ready for machine learning or business reporting. By focusing on data collection, visualization, and rigorous preprocessing, I aimed to understand how individual variables influence overall sales performance and how to handle common data quality issues like missing values and outliers.
 
 Key Insights and Discoveries
@@ -11,5 +10,5 @@ One of the main hurdles I encountered was deciding how to treat the missing valu
 
 Another significant decision involved the outlier removal process. I opted for the Interquartile Range (IQR) method because it is more robust than standard deviation when dealing with skewed sales data. While it resulted in a smaller final dataset, the remaining data is far more representative of daily business operations. Finally, I applied Min-Max scaling to the numerical values to ensure that when this data is used in future models, features with larger scales don't unfairly dominate the results.
 
-How to use this repository
-The Jupyter Notebook contains all the logic and code used to generate these results. You can find the raw data in the root folder and all corresponding visual evidence in the screenshots directory.
+Data Files
+For the purpose of this lab, I generated a synthetic sales dataset containing 200 records to simulate real-world business scenarios. This allowed me to intentionally inject missing values and outliers to demonstrate preprocessing techniques. The raw data is saved in this repository as sales_dataset.csv and the final processed version is available as cleaned_sales_data.csv.
